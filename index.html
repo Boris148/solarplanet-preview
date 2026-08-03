@@ -73,7 +73,7 @@ nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.96);backdrop-f
 .hero{position:relative;color:#fff;overflow:hidden}
 .hero::before{content:"";position:absolute;inset:0;background:url('img/hero-house.jpg') center 32%/cover no-repeat}
 .hero::after{content:"";position:absolute;inset:0;background:linear-gradient(100deg,rgba(10,23,40,.88) 0%,rgba(10,23,40,.72) 44%,rgba(10,23,40,.28) 100%)}
-.hero-in{position:relative;z-index:2;padding:110px 0 130px;max-width:640px}
+.hero-in{position:relative;z-index:2;padding-top:110px;padding-bottom:130px;max-width:640px;margin:0}
 .hero h1{font-size:clamp(36px,5.4vw,58px);margin-bottom:20px}
 .hero h1 em{font-style:normal;color:var(--amber)}
 .hero p{font-size:19px;color:#dbe4ee;max-width:540px;margin-bottom:34px}
@@ -122,7 +122,7 @@ nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.96);backdrop-f
 .band{position:relative;color:#fff;overflow:hidden}
 .band::before{content:"";position:absolute;inset:0;background:url('img/panels-roof.jpg') center/cover no-repeat}
 .band::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(10,23,40,.93),rgba(10,23,40,.78))}
-.band-in{position:relative;z-index:2;padding:88px 0;max-width:660px}
+.band-in{position:relative;z-index:2;padding-top:88px;padding-bottom:88px;max-width:660px;margin:0}
 .band h2{color:#fff}
 .band p{color:#ccd8e4;margin-top:16px;font-size:17.5px}
 .band .stat-row{display:flex;gap:44px;margin:34px 0 38px;flex-wrap:wrap}
@@ -189,7 +189,7 @@ footer a:hover{color:var(--amber)}
 </nav>
 
 <header class="hero" id="top">
-  <div class="wrap hero-in">
+  <div class="wrap"><div class="hero-in">
     <h1>Your Roof Could Be Paying <em>Your</em> Electric Bill</h1>
     <p>Solar Planet designs and installs home solar and battery systems across the Inland Empire — so you stop renting power from the utility and start owning it.</p>
     <div class="hero-ctas">
@@ -197,7 +197,7 @@ footer a:hover{color:var(--amber)}
       <a href="#how" class="btn btn-ghost">See How It Works</a>
     </div>
     <div class="hero-note">$0-down financing available &nbsp;•&nbsp; 25-year panel warranty &nbsp;•&nbsp; Local, licensed &amp; insured</div>
-  </div>
+  </div></div>
 </header>
 
 <div class="trust">
@@ -290,7 +290,7 @@ footer a:hover{color:var(--amber)}
 </section>
 
 <section class="band">
-  <div class="wrap band-in">
+  <div class="wrap"><div class="band-in">
     <span class="kicker" style="color:var(--amber)">The Math</span>
     <h2>Every Month You Wait Is Another Bill You Didn't Have To Pay</h2>
     <p>The federal solar tax credit still covers 30% of your system cost. Pair that with $0-down financing and most homeowners replace their electric bill with a lower fixed payment from day one.</p>
@@ -300,7 +300,7 @@ footer a:hover{color:var(--amber)}
       <div class="stat"><b>25 yrs</b><span>Warranty coverage</span></div>
     </div>
     <a href="#quote" class="btn btn-amber">See What My Roof Can Do</a>
-  </div>
+  </div></div>
 </section>
 
 <section class="section" id="reviews">
